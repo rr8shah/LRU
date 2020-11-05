@@ -30,7 +30,8 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Show examples of usage:
-`from LRU import LRUCache
+```
+from LRU import LRUCache
 
 cache = LRUCache(2)
 cache.put(1, 1)
@@ -49,7 +50,7 @@ cache._print()
 cache.get(4)
 cache.reset()
 cache._print()
-cache.get(1)`
+cache.get(1)```
 
 ## Status
 Project is: _finished_
