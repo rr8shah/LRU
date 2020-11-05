@@ -3,7 +3,6 @@ Least-Recently Used (LRU) Cache Implementation in Python with the help of Dictio
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Files and Description](#Files-and-Description)
 * [Setup](#setup)
@@ -14,20 +13,12 @@ Least-Recently Used (LRU) Cache Implementation in Python with the help of Dictio
 ## General info
 This is LRU Cache implementation which will have its maximum capacity set at the time of the construction, and when adding new keys that cause the capacity to be exceeded, the “least recently used” item needs to be identified and discarded. This LRU is implemented with five different methods described in Files and Description section.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-
 ## Technologies
 Project is created with:
 * Python - version 3.7.5
 
 ## Files and Description
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
-          
-          
+
 This reposetory contains following three files
 
 1. **LRU.py** - This file contains the implementation of the LRU with the list and dictionary data staructure. This implementation posseses following five methods.
@@ -50,7 +41,8 @@ This reposetory contains following three files
 3. **main.py** - This file contains example demonstration of the LRU cache with different methods.
  
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+The code can be run and test on the local environment with the following commands.
+
 
 ## Code Examples
 Example usage of the LRU implementation:
@@ -81,8 +73,5 @@ cache.get(1)
 Project is: _finished_
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-
+Created by [@rr8shah](https://github.com/rr8shah) - feel free to contact me!!
  
