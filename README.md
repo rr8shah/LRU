@@ -45,7 +45,7 @@ The Unit tests can be run by the following commands on windows command prompt,
 ```
 git clone https://github.com/rr8shah/LRU.git
 cd LRU
-python LRU_test.py
+python LRU_test.py -b
 
 ```
 The example file can be run by the following commands on windows command prompt,
