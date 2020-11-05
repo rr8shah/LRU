@@ -37,6 +37,18 @@ This reposetory contains following three files
  * reset() - clear the cache memory
  * _print() - This method is used to print the cache memory in the order from least to recent.
 
+2. **LRU_test.py** - This .py file contains different unit test for the implementation. Following test cases are considered.
+ * Capacity test - Cache must be initialized with a maximum size
+ * Get test - get the value of a key
+ * Put test - Put the value of a new key
+ * Update test - Update the value for existing key
+ * Delete test - delete a key. Attempting to delete a key that doesn’t exist is a no-op
+ * Reset test - reset the cache, which will remove all items from the cache 
+ * Least Recently used memory removal test - Based on the hotness of the key least recently used memory removed when maximum capacity exceeded
+ * Maximum capacity not exceeded test - Checking maximum capacity exceeded or not
+
+3. **main.py** - This file contains example demonstration of the LRU cache with different methods.
+ 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
 
