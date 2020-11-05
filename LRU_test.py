@@ -27,7 +27,7 @@ class TestLRU(unittest.TestCase):
         cache.put(2,'Two')
         cache._del(1)
         result = len(cache.cache)
-        self.assertEqual(result, 1, 'Delete test Passed')
+        self.assertEqual(result, cache.capacity - 1, 'Delete test Passed')
         
     def test_reset(self):
         cache = LRUCache(2)
@@ -37,6 +37,7 @@ class TestLRU(unittest.TestCase):
         result = len(cache.cache)
         self.assertEqual(result, 0, 'Reset test Passed')
     
+    #Checking edge cases of the memory exceed
     def test_capacity_exceed(self):
         cache = LRUCache(2)
         cache.put(1, 1)
@@ -47,7 +48,7 @@ class TestLRU(unittest.TestCase):
         result = 1 not in cache.keys
         result2 = len(cache.cache)
         self.assertEqual(result, True, 'Least Recently used memory removal test Passed')
-        self.assertEqual(result2, 2, 'Maximum capacity not exceeded test Passed')
+        self.assertEqual(result2, cache.capacity, 'Maximum capacity not exceeded test Passed')
         
 if __name__ == '__main__':
     unittest.main()
