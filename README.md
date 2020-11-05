@@ -5,7 +5,7 @@ Least-Recently Used (LRU) Cache Implementation in Python with the help of Dictio
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Files and Description](#Files and Description)
+* [Files and Description](#Files-and-Description)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
