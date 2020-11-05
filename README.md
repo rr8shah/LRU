@@ -23,14 +23,18 @@ Project is created with:
 * Python - version 3.7.5
 
 ## Files and Description
+Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
 This reposetory contains following three files
 1. LRU.py
- This file contains the implementation of the LRU with the list and dictionary data staructure. This implementation posseses following five methods,
- 1. get(key) - Returns the value of a key, if it exists.
- 2. put(key, val) - Creates new key and adds it to the cache and updates key value pair if key already exists
- 3. _del(key) - Remove the key and its value from the cache memory. If key does not exist no operation will be performed
- 4. reset() - clear the cache memory
- 5. _print() - This method is used to print the cache memory in the order from least to recent.
+This file contains the implementation of the LRU with the list and dictionary data staructure. This implementation posseses following five methods,
+1. get(key) - Returns the value of a key, if it exists.
+2. put(key, val) - Creates new key and adds it to the cache and updates key value pair if key already exists
+3. _del(key) - Remove the key and its value from the cache memory. If key does not exist no operation will be performed
+4. reset() - clear the cache memory
+5. _print() - This method is used to print the cache memory in the order from least to recent.
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
