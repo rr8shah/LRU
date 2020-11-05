@@ -23,6 +23,7 @@ Project is created with:
 * Python - version 3.7.5
 
 ## Files and Description
+Rihi
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
