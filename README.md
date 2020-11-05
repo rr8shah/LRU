@@ -41,8 +41,20 @@ This reposetory contains following three files
 3. **main.py** - This file contains example demonstration of the LRU cache with different methods.
  
 ## Setup
-The code can be run and test on the local environment with the following commands.
+The Unit tests can be run by the following commands on windows command prompt,
+```
+git clone https://github.com/rr8shah/LRU.git
+cd LRU
+python LRU_test.py
 
+```
+The example file can be run by the following commands on windows command prompt,
+```
+git clone https://github.com/rr8shah/LRU.git
+cd LRU
+python main.py
+
+```
 
 ## Code Examples
 Example usage of the LRU implementation:
