@@ -30,7 +30,7 @@ Project is created with:
           
 This reposetory contains following three files
 
-1. **LRU.py**
+1. **LRU.py** - This file contains the implementation of the LRU with the list and dictionary data staructure. This implementation posseses following five methods.
  * get(key) - Returns the value of a key, if it exists.
  * put(key, val) - Creates new key and adds it to the cache and updates key value pair if key already exists
  * _del(key) - Remove the key and its value from the cache memory. If key does not exist no operation will be performed
