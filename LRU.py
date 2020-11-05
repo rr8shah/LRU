@@ -68,15 +68,17 @@ class LRUCache:
         
         # if key is not present then create the key and value pair in cache memory
         else:
-            self.keys.append(key)         
-            self.cache[key] = value
-            #if length exceeds then remove the least used memory
-            if len(self.keys) > self.capacity:       
+            #if length equals then remove the least used memory before creating new key
+            if len(self.keys) == self.capacity:       
                 key_to_be_removed = self.keys[0]
                 self.cache.pop(key_to_be_removed)
                 self.keys.pop(0)
+                self.keys.append(key)         
+                self.cache[key] = value
                 print("New key and value pair created in the cache with the removal of the least recently used key and value")
             else:
+                self.keys.append(key)         
+                self.cache[key] = value
                 print("New key and Value pair created in the cache")
                 
     
