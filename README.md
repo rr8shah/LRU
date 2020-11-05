@@ -30,17 +30,27 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`from LRU import LRUCache
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+cache = LRUCache(2)
+cache.put(1, 1)
+cache.put(2, 2)
+cache.get(1)
+cache.put(3, 3)
+cache._print()
+cache.get(2)
+cache.put(4, 4)
+cache._print()
+cache.get(3)
+cache.get(4)
+cache.get(2)
+cache._del(4)
+cache._print()
+cache.get(4)
+cache.reset()
+cache._print()
+cache.get(1)
+`
 
 ## Status
 Project is: _finished_
