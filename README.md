@@ -49,8 +49,7 @@ cache._print()
 cache.get(4)
 cache.reset()
 cache._print()
-cache.get(1)
-`
+cache.get(1)`
 
 ## Status
 Project is: _finished_
