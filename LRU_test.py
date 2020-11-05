@@ -21,6 +21,13 @@ class TestLRU(unittest.TestCase):
         result = len(cache.cache)
         self.assertEqual(result, 1, 'Put test Passed')
     
+    def test_update(self):
+        cache = LRUCache(2)
+        cache.put(1,'One')
+        cache.put(1,'Two')
+        result = cache.get(1)
+        self.assertEqual(result, 'Two', 'Put test Passed')
+        
     def test_delete(self):
         cache = LRUCache(2)
         cache.put(1,'One')
